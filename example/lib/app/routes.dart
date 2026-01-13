@@ -1,7 +1,7 @@
 import 'package:go_router/go_router.dart';
-import 'package:device_identifiers_example/views/home/home_view.dart';
-import 'package:device_identifiers_example/views/device_id/device_id_view.dart';
-import 'package:device_identifiers_example/views/imei/imei_view.dart';
+import 'package:masterfabric_device_identifiers_example/views/home/home_view.dart';
+import 'package:masterfabric_device_identifiers_example/views/device_id/device_id_view.dart';
+import 'package:masterfabric_device_identifiers_example/views/imei/imei_view.dart';
 
 class AppRoutes {
   static const String home = '/';

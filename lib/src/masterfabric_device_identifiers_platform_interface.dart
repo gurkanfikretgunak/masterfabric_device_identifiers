@@ -1,5 +1,5 @@
 import 'package:plugin_platform_interface/plugin_platform_interface.dart';
-import 'device_identifiers_method_channel.dart';
+import 'masterfabric_device_identifiers_method_channel.dart';
 
 abstract class DeviceIdentifiersPlatform extends PlatformInterface {
   DeviceIdentifiersPlatform() : super(token: _token);

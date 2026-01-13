@@ -1,8 +1,8 @@
-export 'src/device_identifiers_platform_interface.dart';
-export 'src/device_identifiers_method_channel.dart';
+export 'src/masterfabric_device_identifiers_platform_interface.dart';
+export 'src/masterfabric_device_identifiers_method_channel.dart';
 
 import 'package:flutter/services.dart';
-import 'src/device_identifiers_platform_interface.dart';
+import 'src/masterfabric_device_identifiers_platform_interface.dart';
 
 /// A Flutter plugin that provides unique device identifiers for Android and iOS.
 class DeviceIdentifiers {

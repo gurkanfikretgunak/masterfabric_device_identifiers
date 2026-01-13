@@ -1,6 +1,6 @@
 import 'package:injectable/injectable.dart';
 import 'package:masterfabric_core/masterfabric_core.dart';
-import 'package:device_identifiers/device_identifiers.dart';
+import 'package:masterfabric_device_identifiers/masterfabric_device_identifiers.dart';
 import 'device_id_state.dart';
 
 @injectable

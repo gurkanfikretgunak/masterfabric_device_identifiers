@@ -1,4 +1,4 @@
-name: device_identifiers_example
+name: masterfabric_device_identifiers_example
 description: Example app demonstrating the device_identifiers plugin
 publish_to: 'none'
 
@@ -11,7 +11,7 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  device_identifiers:
+  masterfabric_device_identifiers:
     path: ../
   lucide_icons: ^0.257.0
   go_router: ^15.1.1
