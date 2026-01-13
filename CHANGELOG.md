@@ -9,6 +9,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### 🎉 Initial Release
 
+#### Package Information
+- **Package Name:** `masterfabric_device_identifiers`
+- **Example Package:** `masterfabric_device_identifiers_example`
+- **Organization:** MasterFabric (@masterfabric)
+- **Author:** Gürkan Fikret Günak (@gurkanfikretgunak)
+
 #### Added
 - ✨ Core functionality to retrieve unique device identifiers
 - 📱 Android support using `Settings.Secure.ANDROID_ID`
@@ -32,6 +38,27 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Returns `null` gracefully when identifier is unavailable
 - Permission exception handling for IMEI access
 - Example app demonstrating permission requests
+- Full null-safety support
+- Comprehensive inline documentation
+
+#### Usage Example
+```dart
+import 'package:masterfabric_device_identifiers/masterfabric_device_identifiers.dart';
+
+// Get Device ID
+final deviceId = await DeviceIdentifiers.getDeviceIdentifier();
+print('Device ID: $deviceId');
+
+// Get IMEI (Android only)
+try {
+  final imei = await DeviceIdentifiers.getImei();
+  print('IMEI: $imei');
+} on PlatformException catch (e) {
+  if (e.code == 'PERMISSION_DENIED') {
+    print('Permission denied');
+  }
+}
+```
 
 #### Supported Platforms
 - Android API 16+ (Android 4.1 Jelly Bean and above)
@@ -40,11 +67,22 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 #### Technical Details
 - Built with Flutter SDK >=1.17.0
 - Dart SDK ^3.10.4
+- Package name: `masterfabric_device_identifiers`
+- Main library file: `masterfabric_device_identifiers.dart`
 - Uses `plugin_platform_interface` ^2.0.0
 - Uses `permission_handler` ^11.2.0
 - Follows Flutter plugin best practices
 - Android: Uses TelephonyManager for IMEI
 - iOS: IMEI not available (platform restriction)
+
+#### Library Structure
+```
+lib/
+├── masterfabric_device_identifiers.dart (main export)
+└── src/
+    ├── masterfabric_device_identifiers_platform_interface.dart
+    └── masterfabric_device_identifiers_method_channel.dart
+```
 
 #### Example App Architecture
 - 🏗️ **MasterFabric Core** pattern implementation
