@@ -1,0 +1,14 @@
+{
+  "appSettings": {
+    "appName": "Device Identifiers",
+    "version": "0.0.1",
+    "environment": "production"
+  },
+  "uiConfiguration": {
+    "themeMode": "light",
+    "fontScale": 1.0,
+    "showPerformanceOverlay": false,
+    "devModeGrid": false,
+    "devModeSpacer": false
+  }
+}
