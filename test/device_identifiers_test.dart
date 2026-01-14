@@ -1,7 +1,5 @@
 import 'package:flutter_test/flutter_test.dart';
 import 'package:masterfabric_device_identifiers/masterfabric_device_identifiers.dart';
-import 'package:masterfabric_device_identifiers/src/masterfabric_device_identifiers_platform_interface.dart';
-import 'package:masterfabric_device_identifiers/src/masterfabric_device_identifiers_method_channel.dart';
 import 'package:plugin_platform_interface/plugin_platform_interface.dart';
 
 class MockDeviceIdentifiersPlatform 

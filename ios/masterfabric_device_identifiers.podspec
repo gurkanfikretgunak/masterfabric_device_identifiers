@@ -1,5 +1,5 @@
 Pod::Spec.new do |s|
-  s.name             = 'device_identifiers'
+  s.name             = 'masterfabric_device_identifiers'
   s.version          = '0.0.1'
   s.summary          = 'A Flutter plugin that provides unique device identifiers for Android and iOS.'
   s.description      = <<-DESC

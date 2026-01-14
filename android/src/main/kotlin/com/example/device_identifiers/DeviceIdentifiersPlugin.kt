@@ -19,7 +19,7 @@ class DeviceIdentifiersPlugin: FlutterPlugin, MethodCallHandler {
   private lateinit var context: Context
 
   override fun onAttachedToEngine(@NonNull flutterPluginBinding: FlutterPlugin.FlutterPluginBinding) {
-    channel = MethodChannel(flutterPluginBinding.binaryMessenger, "device_identifiers")
+    channel = MethodChannel(flutterPluginBinding.binaryMessenger, "masterfabric_device_identifiers")
     channel.setMethodCallHandler(this)
     context = flutterPluginBinding.applicationContext
   }

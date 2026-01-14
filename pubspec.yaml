@@ -30,7 +30,7 @@ flutter:
         package: com.example.device_identifiers
         pluginClass: DeviceIdentifiersPlugin
       ios:
-        pluginClass: DeviceIdentifiersPlugin
+        pluginClass: MasterfabricDeviceIdentifiersPlugin
 
   # To add assets to your package, add an assets section, like this:
   # assets:

@@ -1,10 +1,10 @@
 import Flutter
 import UIKit
 
-public class DeviceIdentifiersPlugin: NSObject, FlutterPlugin {
+public class MasterfabricDeviceIdentifiersPlugin: NSObject, FlutterPlugin {
   public static func register(with registrar: FlutterPluginRegistrar) {
-    let channel = FlutterMethodChannel(name: "device_identifiers", binaryMessenger: registrar.messenger())
-    let instance = DeviceIdentifiersPlugin()
+    let channel = FlutterMethodChannel(name: "masterfabric_device_identifiers", binaryMessenger: registrar.messenger())
+    let instance = MasterfabricDeviceIdentifiersPlugin()
     registrar.addMethodCallDelegate(instance, channel: channel)
   }
 

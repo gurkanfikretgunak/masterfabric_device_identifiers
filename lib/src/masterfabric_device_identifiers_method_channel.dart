@@ -2,7 +2,7 @@ import 'package:flutter/services.dart';
 import 'masterfabric_device_identifiers_platform_interface.dart';
 
 class MethodChannelDeviceIdentifiers extends DeviceIdentifiersPlatform {
-  static const MethodChannel _channel = MethodChannel('device_identifiers');
+  static const MethodChannel _channel = MethodChannel('masterfabric_device_identifiers');
 
   @override
   Future<String?> getDeviceIdentifier() async {
