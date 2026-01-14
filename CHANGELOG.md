@@ -104,6 +104,17 @@ lib/
 
 ---
 
+## [0.0.2] - 2026-01-14
+
+### Fixed
+- 🔧 Uncommented iOS platform specification in example Podfile to resolve CocoaPods warning
+- ✅ Explicitly set iOS platform to version 13.0 in example/ios/Podfile
+
+### Changed
+- 📝 Improved CocoaPods configuration for example app
+
+---
+
 ## [Unreleased]
 
 ### Planned Features

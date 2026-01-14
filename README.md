@@ -58,7 +58,7 @@ Add `device_identifiers` to your `pubspec.yaml`:
 
 ```yaml
 dependencies:
-  device_identifiers: ^0.0.1
+  device_identifiers: ^0.0.2
 ```
 
 Then install the package:

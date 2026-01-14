@@ -1,6 +1,6 @@
 name: masterfabric_device_identifiers
 description: A Flutter plugin that provides unique device identifiers for Android and iOS platforms.
-version: 0.0.1
+version: 0.0.2
 homepage: https://github.com/gurkanfikretgunak/device_identifiers
 
 environment:
